@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  margin: 0 150px;
+  display: grid;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 100px;
+  padding-top: 30px;
+}
+
+.list ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  color: hsl(219, 9%, 45%);
+  margin-right: 350px;
+}
+
+.cart-profile {
+  display: flex;
+  gap: 54px;
+  align-items: center;
+}
+
+.profile-img img {
+  height: 40px;
+}
+
+.line {
+  height: 1px;
+  width: 1120px;
+  background-color: hsl(220, 14%, 75%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-product {
+  display: grid;
+  gap: 28px;
+}
+.imgpix img {
+  height: 420px;
+  width: 430px;
+  border-radius: 12px;
+}
+
+.others {
+  display: flex;
+  gap: 24px;
+}
+
+.others img {
+  height: 85px;
+  width: 90px;
+  border-radius: 8px;
+}
+
+.section {
+  margin-top: 30px;
+  padding: 50px;
+  display: flex;
+  gap: 150px;
+  /* align-items: center; */
+}
+
+.product-make {
+  align-items: center;
+  display: grid;
+  gap: 12px;
+}
+.product-make h1 {
+  max-width: 100ch;
+  font-size: 40px;
+}
+.product-make h4 {
+  text-transform: uppercase;
+  color: hsl(26, 100%, 55%);
+}
+.product-make p {
+  max-width: 50ch;
+  line-height: 1.8;
+  color: hsl(219, 9%, 45%);
+}
+
+.price {
+  display: flex;
+  gap: 24px;
+}
+
+.mprice {
+  display: grid;
+  gap: 12px;
+}
+.mprice h1 {
+  font-size: 30px;
+}
+.mprice h3 {
+  color: hsl(220, 14%, 75%);
+  text-decoration: line-through;
+}
+
+.discount {
+  background-color: hsl(25, 100%, 94%);
+  width: 45px;
+  height: 30px;
+  padding: 7px 0;
+  border-radius: 6px;
+  text-align: center;
+}
+.discount h4 {
+  font-size: 12px;
+  background-color: hsl(25, 100%, 94%);
+}
+
+.fill {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.fill-auto {
+  display: flex;
+  gap: 30px;
+  width: 135px;
+  height: 60px;
+  background-color: hsl(223, 64%, 98%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.addtoCart {
+  display: flex;
+  gap: 18px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: hsl(223, 64%, 98%);
+}
+.toCart img {
+  height: 15px;
+  color: white;
+}
+.minus,
+.plus,
+img,
+.fill-auto h5 {
+  background-color: hsl(223, 64%, 98%);
+}
+.minus {
+  align-items: center;
+  display: grid;
+}
+
+.fill-auto h5 {
+  font-size: 20px;
+}
+
+.toCart,
+.toCarthead,
+.toCart img,
+.toCarthead h5,
+.addtoCart {
+  background-color: hsl(26, 100%, 55%);
+}
